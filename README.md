@@ -1,3 +1,2 @@
 # leetcode
-my leetcode
-code writed by hunan
+leetcode code writen by hunan
