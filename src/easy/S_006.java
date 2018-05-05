@@ -3,7 +3,7 @@ package easy;
 /**
  * Created by ad on 2017/6/3.
  */
-public class Solution_006 {
+public class S_006 {
     public static String convert(String s, int numRows) {
         StringBuffer res = new StringBuffer();
         StringBuffer[] sb = new StringBuffer[numRows];
