@@ -17,6 +17,7 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea
 
 # Gradle
 .idea/**/gradle.xml
@@ -144,3 +145,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.idea/inspectionProfiles/
+.idea/leetcode.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sonarlint/
+.idea/vcs.xml
+src/easy/linktable/
