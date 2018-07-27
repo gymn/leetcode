@@ -75,6 +75,12 @@ public class S_167 {
         return indices;
     }
 
+    /**
+     * 100%!!
+     * @param numbers
+     * @param target
+     * @return
+     */
     public int[] twoSum3(int[] numbers, int target) {
         if (numbers == null || numbers.length < 2) {
             return null;
