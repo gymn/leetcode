@@ -10,9 +10,6 @@ import java.util.Map;
  * 求众数
  */
 public class S_169 {
-<<<<<<< HEAD
-
-=======
     public int majorityElement(int[] nums) {
         Map<Integer,Integer> numberMap = new HashMap<>();
         for(int i=0;i<nums.length;i++) {
@@ -24,5 +21,4 @@ public class S_169 {
         }
         return 0;
     }
->>>>>>> b4a82650c2e9c1398116fdcec3e9f4953cbcc2a3
 }
