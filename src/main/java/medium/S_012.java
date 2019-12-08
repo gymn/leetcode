@@ -1,7 +1,5 @@
 package medium;
 
-import org.junit.jupiter.api.Test;
-
 public class S_012 {
     public String intToRoman(int num) {
         String[][] items = {
@@ -21,7 +19,6 @@ public class S_012 {
         return sb.toString();
     }
 
-    @Test
     public void testIntToRoman() {
         System.out.println(intToRoman(4));
     }
