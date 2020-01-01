@@ -1,6 +1,6 @@
 package medium;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -40,7 +40,7 @@ public class S_016 {
 
     @Test
     public void testThreeSumClosest() {
-        int[] nums = {1, 2, 4,8, 16,32,64,128};
+        int[] nums = {1, 2, 4, 8, 16, 32, 64, 128};
         System.out.println(threeSumClosest(nums, 82));
     }
 }
