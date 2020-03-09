@@ -1,4 +1,4 @@
-package Hard;
+package hard;
 
 import org.junit.Test;
 import util.ListNode;

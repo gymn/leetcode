@@ -1,4 +1,4 @@
-package Hard;
+package hard;
 
 public class S_287 {
 	//暴力4.7%

@@ -1,4 +1,4 @@
-package Hard;
+package hard;
 
 /**
  * Created by ad on 2017/6/21.

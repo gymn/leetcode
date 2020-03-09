@@ -1,4 +1,4 @@
-package Hard.dp;
+package hard.dp;
 
 import org.junit.Test;
 
