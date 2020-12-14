@@ -13,7 +13,7 @@ import java.util.Set;
  * @date 2020-03-09
  * @time 19:41
  */
-public class S_3 {
+public class S_003 {
     int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {
             return 0;
