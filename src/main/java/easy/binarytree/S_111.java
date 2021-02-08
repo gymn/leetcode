@@ -3,7 +3,7 @@ package easy.binarytree;
 import util.TreeNode;
 
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/23
  * 给定一个二叉树，找出其最小深度。
  */

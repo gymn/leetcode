@@ -1,9 +1,7 @@
 package util;
 
-import sun.reflect.generics.tree.Tree;
-
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/7
  */
 public class TreeNode {
@@ -19,14 +17,26 @@ public class TreeNode {
         if (nums == null || nums.length == 0) {
             return null;
         }
-        TreeNode root = new TreeNode(nums[0]);
+
+        TreeNode[] nodes = new TreeNode[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i]!=null) {
+                nodes[i] = new TreeNode(nums[i]);
+            }
+        }
+
         for (int i = 0; i < nums.length; i++) {
             int leftIdx = 2 * i + 1;
             int rightIdx = 2 * i + 2;
-            if (leftIdx < nums.length && nums[leftIdx] != null) {
+            if (leftIdx < nums.length && nodes[leftIdx] != null) {
+                nodes[i].left = nodes[leftIdx];
+            }
 
+            if(rightIdx<nums.length&&nodes[rightIdx]!=null){
+                nodes[i].right = nodes[rightIdx];
             }
         }
+        return nodes[0];
     }
 
     @Override

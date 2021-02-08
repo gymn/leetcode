@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/23
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
  */

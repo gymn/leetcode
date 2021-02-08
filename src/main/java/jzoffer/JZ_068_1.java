@@ -1,5 +1,6 @@
 package jzoffer;
 
+import org.junit.Test;
 import util.TreeNode;
 
 /**
@@ -28,5 +29,12 @@ public class JZ_068_1 {
         } else {
             return preOrder(root.left, left, right);
         }
+    }
+
+    @Test
+    public void test() {
+        TreeNode tree = TreeNode.from(new Integer[]{6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
+        TreeNode ans = lowestCommonAncestor(tree, new TreeNode(2), new TreeNode(4));
+        System.out.println(ans.val);
     }
 }

@@ -1,7 +1,7 @@
 package easy;
 
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/7
  */
 public class S_070 {

@@ -5,7 +5,7 @@ import util.TreeNode;
 import java.util.Arrays;
 
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/21
  */
 

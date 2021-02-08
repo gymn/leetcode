@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Author:hunan07(hunan07@meituan.com)
+ *
  * Date:2018/5/23
  * 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
  */
